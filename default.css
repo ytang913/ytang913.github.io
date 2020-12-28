@@ -152,7 +152,9 @@ h6{font-size: 16px;}
     box-shadow: -1px 1px 3px -1px rgba(0,0,0,75);
 
 }
-
+#about-me {
+    
+}
 .left-column{
     grid-area: left-column;
     padding-top:50px;
