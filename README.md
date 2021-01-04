@@ -8,11 +8,11 @@ The different theme colors are white, blue, green, and purple.
 # White Theme
 ![](images/whiteTheme.jpg)
 # Blue Theme
-
+![](images/website.png)
 # Green Theme
-
+![](images/greenTheme.jpg)
 # Purple Theme
-
+![](images/purpleTheme.jpg)
 
 
 
