@@ -328,6 +328,10 @@ h6{font-size: 16px;}
 .billboard-project{
     height:500px;
 }
+.billboard-project-2{
+    height:500px;
+    width: 1020px;
+}
 .sql-project{
     height:750px;
     width:750px;
