@@ -337,6 +337,11 @@ h6{font-size: 16px;}
     width:750px;
 }
 
+.themeColor {
+    height: 450px;
+    
+}
+
 
 @media screen and  (max-width:1200px){
     .main-container{
