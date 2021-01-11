@@ -72,15 +72,56 @@
                     <div>
                         <h4>About</h4>
                         <p>
-                            Many students and faculty coming to the University of Maryland, College Park
-                            are unfamilar with PG County. On top of the many stresses of being 
-                            in an academic environment, finding the nearest PG County Agency to 
-                            solve their problems can be a daunting task. 
+                            For this project, the data I am exploiting is a dataset from the CuMiDa 
+                            repository that contains 78 handpicked cancer microarray datasets. 
                         </p>                    
+                        <p>
+                            In this dataset the main features are the gene expression levels 
+                            of 54676 genes in the columns from 151 breast cancer cell samples in the rows. 
+                        </p>    
+                        <p>
+                            Furthermore, the five different cancer cells will be present 
+                            as well and the target will be the different cancer cells that 
+                            the amount of genes are present.
+                        </p>
+                        <p>
+                            The question I want to answer is which cancer cells have 
+                            the most genes found in them and which models and neural networks 
+                            would have the best accuracy for this dataset?
+                        </p>
+                        <p>
+                            In this dataset I found that there are 41 basal cell types, 
+                            30 luminal_B cell types, 30 HER cell types, 29 luminal_A cell types, 
+                            14 cell line cell types, and finally 7 normal cell types.
+                        </p>
                         <h4>Documentation</h4>
-                        <p></p>    
-                         
+                        <p>
+                            The Data Science techniques I used was Logistic Regression, XGBoost, 
+                            K Means, and Decision Tree Classification. 
+                        </p>
+                        <p>
+                            After implementing each of these techniques I found that logistic regression
+                            had the highest accuracy, with 93.55%.
+                        </p>
+                        <h5>
+                            Logistic Regression Confusion Matrix Results
+                        </h5>
+                        <img class ="billboard-project" src = "images/LogisticRegressionConfuse.jpg">
 
+                        <h5>
+                           XGBoost Results
+                        </h5>
+                        <img class ="billboard-project" src = "images/XGBoost.jpg">
+
+                        <h5>
+                            K Means Cluster Errors Results
+                        </h5>
+                        <img class ="billboard-project" src = "images/KMeans.jpg">
+
+                        <h5>
+                            Decision Tree Classification Results
+                        </h5>
+                        <img class ="billboard-project" src = "images/decisionTree.jpg">
                     </div>
         <script type = "text/javascript" src="script.js"></script>
     </body>
