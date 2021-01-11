@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Portfolio Website</title>
+        <title>PGCAgencyFinder</title>
         <meta name = "viewport" content = "width=device-width, initial-scale=1,
         maximum-scale=1, minimum-scale=1"/>
 
@@ -94,10 +94,49 @@
                             FIRE, PSC, DER, POLICE, SHERIFF, COUNTY EXECUTIVE, OHRM, and OIT.
                         </p>
                         <h4>Documentation</h4>
-                        <p></p>    
-                         <p>The website was deployed on 
+                        <p>
+                            This web application was done using 
+                            HTML, CSS, JavaScript, APIs, JSON file, Leaflet, Express, and Node.Js.
+                        </p>    
+                        <p>
+                            I used HTML and CSS for the overall design of the frontend portion of the web application. 
+                            JavaScript for the user interactions with the web application.
+                        </p>
+                        <p>
+                            Leaflet was used for the map creation based on the Open Street Map API.
+                        </p>
+                        <p>
+                            Express/Node.Js was used for the backend part of the website, 
+                            essentially storing the data from the PG County API.
+                        </p>
+                        <p>
+                            All end points are expecting a JSON object/form object with the key agency and an agency bound to that key. 
+                            Only end point that does not rely on the input is the GET route.
+                        </p>
+                        <p>
+                            Example of JSON object: { agency: 'FIRE' } will cause endpoints to read the agency as FIRE. 
+                            Key must be 'agency'. Value is not case sensitive.
+                            FiRE or fire or any case variation will still be read as FIRE.
+                        </p>
+                        <p>
+                            GET is used to get all offices and return that to the list and map. 
+                            Returns all offices in a JSON object unfiltered.
+                        </p>
+                        <p>
+                            PUT is used to populate the list of offices with offices of interest based on agency. 
+                            Returns a filtered JSON object with office: description, address, city, agency.
+                        </p>
+                        <p>
+                            POST is used to get all offices of interest and return information needed to generate map points. Returns a filtered JSON object with office: description, address, city, agency, longitude, latitude. 
+                            POST includes long and lat PUT does not.
+                        </p>
+                        <p>
+                            The data of the different agencies came from the  
+                            <a href = "https://data.princegeorgescountymd.gov/">PG County API</a>
+                        </p>
+                        <p>The web application was deployed on 
                              <a href ="https://pgcagencyfinder.azurewebsites.net/">Microsoft Azure Cloud</a>
-                          </p>
+                        </p>
                         <h5>
                             Result when opening the application
                         </h5>
