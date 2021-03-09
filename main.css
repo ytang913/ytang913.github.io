@@ -342,7 +342,9 @@ h6{font-size: 16px;}
     height:750px;
     width:750px;
 }
-
+.tdl-project{
+    width:800px;
+}
 .themeColor {
     height: 450px; 
 }
