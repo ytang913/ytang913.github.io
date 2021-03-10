@@ -5,8 +5,6 @@ JavaScript and CSS. The website also allows users to navigate to different pages
 
 The different theme colors are white, blue, green, and purple.
 
-# White Theme
-![](images/whiteTheme.jpg)
 # Blue Theme
 ![](images/blueTheme.jpg)
 # Green Theme
