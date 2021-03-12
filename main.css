@@ -196,12 +196,14 @@ h6{font-size: 16px;}
 .theme-dot:hover{
     border-width:5px;
 }
-#light-mode{
-    background-color:#fff;
-}
+
 
 #blue-mode{
     background-color:#192734;
+}
+
+#pink-mode{
+    background-color:palevioletred;
 }
 
 #green-mode{
