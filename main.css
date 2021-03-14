@@ -394,11 +394,21 @@ h6{font-size: 16px;}
 	width: 100%;
 	padding-top: 10px;
 	padding-bottom:10px; 
-	color: #fff;
+	color: var(--secondaryText);
 	background-color: var(--buttonColor);
-	border:none;
+    border-style: ridge;
+	 
 }
 
+#reset-btn {
+    margin-top: 10px;
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom:10px; 
+	color: var(--secondaryText);
+	background-color: var(--buttonColor);
+	border-style:ridge;
+}
 
 
 @media screen and  (max-width:1200px){
