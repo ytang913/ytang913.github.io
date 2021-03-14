@@ -1,14 +1,14 @@
 :root{
-    --mainColor:skyblue;
-    --secondaryColor:#90c4ee;
+    --mainColor:rgb(170, 220, 240);
+    --secondaryColor:#a5d0f3;
     --borderColor:#164D56;
 
     --mainText:black;
     --secondaryText:black;
-    --themeDotBorder:#FFF;
+    --themeDotBorder:black;
 
     --previewBG:rgba(52, 25, 48, 0.8);
-    --previewShadow:#58b3cf;
+    --previewShadow:#6bbcd4;
 
     --btnColor:#3e9edd;
 }
