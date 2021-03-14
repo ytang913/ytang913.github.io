@@ -28,5 +28,8 @@ function setTheme(mode){
     if (mode == 'purple'){
         document.getElementById('theme-style').href="purple.css"
     }
+    if (mode == 'skyblue') {
+        document.getElementById('theme-style').href="skyblue.css"
+    }
     localStorage.setItem('theme',mode)
 }
