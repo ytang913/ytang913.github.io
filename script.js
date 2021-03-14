@@ -33,3 +33,4 @@ function setTheme(mode){
     }
     localStorage.setItem('theme',mode)
 }
+// 6fe07e
