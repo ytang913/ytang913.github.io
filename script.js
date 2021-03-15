@@ -37,5 +37,8 @@ function setTheme(mode){
     if (mode == 'yellow'){
         document.getElementById('theme-style').href="yellow.css"
     }
+    if (mode == 'orange') {
+        document.getElementById('theme-style').href="orange.css"
+    }
     localStorage.setItem('theme',mode)
 }

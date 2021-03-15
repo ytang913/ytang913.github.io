@@ -225,8 +225,13 @@ h6{font-size: 16px;}
 }
 
 #yellow-mode{
-    background-color: rgb(248, 248, 108);
+    background-color: #dffd56;
 }
+
+#orange-mode{
+    background-color:orange;
+}
+
 #settings-note{
     font-size:12px;
     font-style:italic;
