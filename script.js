@@ -34,5 +34,8 @@ function setTheme(mode){
     if (mode == 'neongreen'){
         document.getElementById('theme-style').href="neongreen.css"
     }
+    if (mode == 'yellow'){
+        document.getElementById('theme-style').href="yellow.css"
+    }
     localStorage.setItem('theme',mode)
 }
