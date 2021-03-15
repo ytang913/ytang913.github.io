@@ -1,0 +1,14 @@
+:root{
+    --mainColor:#8ff19c;
+    --secondaryColor:#78d885;
+    --borderColor:#16563b;
+
+    --mainText:black;
+    --secondaryText:black;
+    --themeDotBorder:#FFF;
+
+    --previewBG:rgb(25,39,52,0.8);
+    --previewShadow:#5cec70;
+
+    --btnColor:#09aec7;
+}

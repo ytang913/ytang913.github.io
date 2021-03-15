@@ -31,6 +31,8 @@ function setTheme(mode){
     if (mode == 'skyblue') {
         document.getElementById('theme-style').href="skyblue.css"
     }
+    if (mode == 'neongreen'){
+        document.getElementById('theme-style').href="neongreen.css"
+    }
     localStorage.setItem('theme',mode)
 }
-// 6fe07e
