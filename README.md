@@ -8,12 +8,13 @@ The different theme colors are white, blue, green, and purple.
 # Blue Theme
 ![](images/blueTheme.jpg)
 # Magenta Theme
-
+![](images/magentaTheme.jpg)
 # Green Theme
 ![](images/greenTheme.jpg)
 # Purple Theme
 ![](images/purpleTheme.jpg)
 # Sky Blue Theme
+![](images/purpleTheme.jpg)
 
 # Neon Green Theme
 
