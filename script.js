@@ -40,8 +40,8 @@ function setTheme(mode){
     if (mode == 'orange') {
         document.getElementById('theme-style').href="orange.css"
     }
-    if (mode == 'black') {
-        document.getElementById('theme-style').href="black.css"
+    if (mode == 'light') {
+        document.getElementById('theme-style').href="light.css"
     }
     localStorage.setItem('theme',mode)
 }

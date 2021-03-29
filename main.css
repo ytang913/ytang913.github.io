@@ -43,6 +43,12 @@ ul{
     list-style: none;
 }
 
+.skill-level {
+    color:var(--secondaryText);
+    font-size:35px;
+    font-weight: bold;
+}
+
 h1{font-size: 56px;}
 
 h2{font-size: 36px;}
@@ -232,8 +238,8 @@ h6{font-size: 16px;}
     background-color:orange;
 }
 
-#black-mode{
-    background-color: black;
+#light-mode{
+    background-color: #FFF;
 }
 
 #settings-note{
