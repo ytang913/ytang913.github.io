@@ -15,15 +15,13 @@ The different theme colors are blue,magenta,green, purple, sky blue, neon green,
 ![](images/purpleTheme.jpg)
 # Sky Blue Theme
 ![](images/skyblueTheme.jpg)
-
 # Neon Green Theme
 ![](images/neonGreenTheme.jpg)
 # Yellow Theme 
-
+![](images/yellowTheme.jpg)
 # Orange Theme
-
+![](images/orangeTheme.jpg)
 # White Theme
-
-# Black Theme
+![](images/whiteTheme.jpg)
 
 
