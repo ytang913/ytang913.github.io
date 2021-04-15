@@ -10,7 +10,7 @@ The changing of the color is created using CSS and JavaScript
 
 The website also allows users to navigate to different pages on the website and enter their contact information into the form, which was created using HTML
 
-Form.io 
+Formspree.io is used to get the data of the form when users enter in their information.
 
 The different theme colors are blue,magenta,green, purple, sky blue, neon green, yellow, orange, and white
 
