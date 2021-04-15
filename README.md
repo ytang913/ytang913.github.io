@@ -1,7 +1,16 @@
 # Portfolio Website
 
-This website is created to highlight my personal projects and contact information. The website allows users to change the theme color of the website using 
-JavaScript and CSS. The website also allows users to navigate to different pages on the website and enter their contact information into the form I created using HTML
+# About
+This website is created to highlight my personal projects and contact information. 
+
+The user is able to change theme color of the website by clicking on the buttons prompted
+
+# Documentation
+The changing of the color is created using CSS and JavaScript 
+
+The website also allows users to navigate to different pages on the website and enter their contact information into the form, which was created using HTML
+
+Form.io 
 
 The different theme colors are blue,magenta,green, purple, sky blue, neon green, yellow, orange, and white
 
