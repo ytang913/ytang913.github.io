@@ -94,15 +94,19 @@
                             
                         <p>The list itself will display the name of the office,its address,
                             and its agency. </p>
+
                         <p>There is also a map function, which will display 
                             the location of each populated agency with the accompanying information 
                             in a pop-up banner. </p>
+
                         <p>Furthermore, the "Get All Offices" button can be used 
                             to get all agencies on the map and in the list.</p>
+
                         <p>Possble agencies users 
                             can enter are HEALTH, DPWT, COURTS, OCS, SOIL CONSERVATION, 
                             FIRE, PSC, DER, POLICE, SHERIFF, COUNTY EXECUTIVE, OHRM, and OIT.</p>
                         </p>
+
                         <h4>Documentation</h4>
                         <p>
                             This web application was done using 
@@ -125,20 +129,21 @@
                         </p>
                         <p>
                             Example of JSON object: { agency: 'FIRE' } will cause endpoints to read the agency as FIRE. 
-                            Key must be 'agency'. Value is not case sensitive.
-                            FiRE or fire or any case variation will still be read as FIRE.
                         </p>
+
+                        <p>The key must be 'agency' as the Value is not case sensitive.
+                            Any case variation will still be read as FIRE.</p>
                         <p>
                             GET is used to get all offices and return that to the list and map. 
-                            Returns all offices in a JSON object unfiltered.
+                            It returns all offices in a JSON object unfiltered.
                         </p>
                         <p>
                             PUT is used to populate the list of offices with offices of interest based on agency. 
-                            Returns a filtered JSON object with office: description, address, city, agency.
+                            It returns a filtered JSON object with office: description, address, city, agency.
                         </p>
                         <p>
                             POST is used to get all offices of interest and return information needed to generate map points. Returns a filtered JSON object with office: description, address, city, agency, longitude, latitude. 
-                            POST includes long and lat PUT does not.
+                            It includes longitude and lattidude in which PUT does not.
                         </p>
                         <p>
                             The data of the different agencies came from the  
