@@ -22,21 +22,21 @@ The different theme colors are blue,magenta,green, purple, sky blue, neon green,
 # Blue Theme
 ![](images/Portfolio%20Website/blueTheme.jpg)
 # Magenta Theme
-![](images/magentaTheme.jpg)
+![](images/Portfolio%20Website/magentaTheme.jpg)
 # Green Theme
-![](images/greenTheme.jpg)
+![](images/Portfolio%20Website/greenTheme.jpg)
 # Purple Theme
-![](images/purpleTheme.jpg)
+![](images/Portfolio%20Website/purpleTheme.jpg)
 # Sky Blue Theme
-![](images/skyblueTheme.jpg)
+![](images/Portfolio%20Website/skyblueTheme.jpg)
 # Neon Green Theme
-![](images/neonGreenTheme.jpg)
+![](images/Portfolio%20Website/neonGreenTheme.jpg)
 # Yellow Theme 
-![](images/yellowTheme.jpg)
+![](images/Portfolio%20Website/yellowTheme.jpg)
 # Orange Theme
-![](images/orangeTheme.jpg)
+![](images/Portfolio%20Website/orangeTheme.jpg)
 # White Theme
-![](images/whiteTheme.jpg)
+![](images/Portfolio%20Website/whiteTheme.jpg)
 
 # Here are the different pages for the different projects I built
 
