@@ -20,7 +20,7 @@ Formspree.io is used to get the data of the form when users enter in their infor
 The different theme colors are blue,magenta,green, purple, sky blue, neon green, yellow, orange, and white
 
 # Blue Theme
-![](images/blueTheme.jpg)
+![](images/Portfolio Website/blueTheme.jpg)
 # Magenta Theme
 ![](images/magentaTheme.jpg)
 # Green Theme
