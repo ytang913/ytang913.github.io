@@ -38,4 +38,24 @@ The different theme colors are blue,magenta,green, purple, sky blue, neon green,
 # White Theme
 ![](images/whiteTheme.jpg)
 
+# Here are the different pages for the different projects I built
+
+# Billboard Top 100 Python Project
+
+# Portfolio Website 
+
+# UMD Departments' Relational Database
+
+# DannyNoteTaker Web App
+
+# PGC Crime Watcher
+
+# Snake Pygame
+
+# PGCAgencyFinder
+
+# Object Oriented Programming I Projects
+
+# Breast Cancer Cells Data Science Project
+
 
