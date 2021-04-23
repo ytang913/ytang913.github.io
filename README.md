@@ -54,8 +54,36 @@ The different theme colors are blue,magenta,green, purple, sky blue, neon green,
 
 # PGCAgencyFinder
 
+# Breast Cancer Cells Data Science Project
+
 # Object Oriented Programming I Projects
 
-# Breast Cancer Cells Data Science Project
+# Python Web Scraper
+
+# To Do List
+
+# Tic Tac Toe
+
+# Freelance Website
+
+# Chinese School Website
+
+# Peter Wang's Blog
+
+# Azure SQL Relational Database
+
+# AWS Elastic Beanstalk 
+
+# Pong Pygame
+
+# Login Registration 
+
+# Snake Game II
+
+# To Do List II
+
+# Linus Virtual Machine 
+
+
 
 
