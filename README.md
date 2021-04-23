@@ -1,12 +1,17 @@
 # Portfolio Website
 
 # About
-This website is created to highlight my personal projects and contact information. 
+This website is created to highlight my personal projects, skills, courses, certifications, contact information, and personal goals
 
 The user is able to change theme color of the website by clicking on the buttons prompted
 
 # Documentation
-The changing of the color is created using CSS and JavaScript 
+
+JavaScript functions, for loops, and if/else statemnts was used for the changing of theme color
+
+CSS was used for the different theme colors and the overall aesthetic of the website
+
+HTML was used for the navigation bar, the contact form, and the different projects highlighted
 
 The website also allows users to navigate to different pages on the website and enter their contact information into the form, which was created using HTML
 
