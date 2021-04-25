@@ -72,8 +72,6 @@ The different theme colors are blue,magenta,green, purple, sky blue, neon green,
 
 # Azure SQL Relational Database
 
-# AWS Elastic Beanstalk 
-
 # Pong Pygame
 
 # Login Registration 
