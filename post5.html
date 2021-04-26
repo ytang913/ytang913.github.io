@@ -84,7 +84,7 @@
                             PG County crimes via the search and data functionality.
                         </p>
 
-                        <p>This web-based application is split up in two sections Home and Data</p>
+                        <p>This web-based application is split up in two sections Home, About, and Data</p>
 
                         <h5>Home Page</h5>
                         <p>
@@ -97,12 +97,21 @@
 
                         <h5>About Page</h5>
 
+                        <p>
+                            This page is to allow users to know what is the purpose of this web application.
+                        </p>
+
                         <h5>Data Page</h5>
                         <p>
                             Users can explore data on the Crime Incidents February 2017 to Present dataset 
                             to see a more personal representation of Prince George's County crime from 
                             residents and incoming residents. 
                             They can engage with the data visual by hovering and inputing a crime type.
+                        </p>
+
+                        <p>
+                            If users are unable to find the crime incident they are looking for they 
+                            can add it to our website and then when refreshing the crime incident will appear.
                         </p>
 
                         <h4>Documenation</h4>
@@ -125,6 +134,17 @@
                         </p>
 
                         <p>
+                            SQLite was used to filter out five different types of crimes of accidents,
+                            theft, sex offense, robbery, and assualt for the Home page
+                        </p>
+
+                        <p>
+                            SQLite was also used to allow users to add crimes they did not
+                            see in our website and have our database create a table based on that 
+                            adding if found in the PG County API
+                        </p>
+
+                        <p>
                             PUT requests can be submitted to the API and is used 
                             to send data to our server to update our database 
                         </p>
@@ -142,6 +162,11 @@
 
                         <p>
                             POST is used to add data to the database, which is in the Data Page
+                        </p>
+
+                        <p>
+                            The data of the different crimes came from the  
+                            <a href = "">PG County API</a>
                         </p>
 
                         <p>The web based application was deployed on:
