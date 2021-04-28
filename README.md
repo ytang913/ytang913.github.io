@@ -38,50 +38,6 @@ The different theme colors are blue,magenta,green, purple, sky blue, neon green,
 # White Theme
 ![](images/Portfolio%20Website/whiteTheme.jpg)
 
-# Here are the different pages for the different projects I built
-
-# Billboard Top 100 Python Project
-
-# Portfolio Website 
-
-# UMD Departments' Relational Database
-
-# DannyNoteTaker Web App
-
-# PGC Crime Watcher
-
-# Snake Pygame
-
-# PGCAgencyFinder
-
-# Breast Cancer Cells Data Science Project
-
-# Object Oriented Programming I Projects
-
-# Python Web Scraper
-
-# To Do List
-
-# Tic Tac Toe
-
-# Freelance Website
-
-# Chinese School Website
-
-# Peter Wang's Blog
-
-# Azure SQL Relational Database
-
-# Pong Pygame
-
-# Login Registration 
-
-# Snake Game II
-
-# To Do List II
-
-# Linus Virtual Machine 
-
 This is the link for the website
 
 ## ytang913.github.io
