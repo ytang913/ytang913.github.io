@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>To Do List II</title>
+        <title>To Do List</title>
         <meta name = "viewport" content = "width=device-width, initial-scale=1,
         maximum-scale=1, minimum-scale=1"/>
 
@@ -17,7 +17,7 @@
         <section class = "s1">
             <div class = "main-container">
                 <div class = "greeting-wrapper">
-                    <h1>To Do List II</h1>    
+                    <h1>To Do List </h1>    
                 </div>
                 
                 <div class = "intro-wrapper">
@@ -48,7 +48,6 @@
                             <div data-mode= "yellow" id ="yellow-mode" class ="theme-dot"></div>
                             <div data-mode= "orange" id = "orange-mode" class="theme-dot"></div>
                             <div data-mode="light" id = "light-mode" class = "theme-dot"></div>
-
                         </div> 
 
                         <p id = "settings-note">You can change the color of the home page by
@@ -77,46 +76,110 @@
                 <div class="about-wrapper"></div>
                     <div>
                         <h4>About</h4>
-                        <p>This project is another To Do List where the user can enter in tasks 
-                            they want to complete</p>
 
-                        <p>The user can left click each task to toggle the task as complete</p>
-
-                        <p>The user can right click each task to remove the task from the To Do List</p>
-                                             
-                        <h4>Documentation</h4>
+                        <p>The purpose of making this full stack application was to 
+                            create a To Do List using both front end and back end technologies.</p>
+                        <p>
+                            There will be five sections present in this full stack application: 
+                            Add New Task, Get Task Id, Enter the Task ID to update 
+                            then press 'Get Task' button, Delete task by task Id, and Add new Person
+                        </p>     
                         
-                        <p>This time around this to do list is created using HTML, CSS, and JavaScript</p>
-
-                        <p>HTML was used for allowing users to add the tasks onto the To Do List</p>
-                            
-                        <p>CSS is for the overall aesthetic of the web based application</p>
-                            
-                        <p>JavaScript functions were used to create the functionaility of 
-                            adding and deleting tasks onto the To Do List</p>
-                        
-                        <p>The web based application was deployed on:
-                            <a href ="#">Heroku</a>
+                        <h5>Add New Task</h5>
+                        <p>
+                            In this section, where the user can add a new task in the "Add Task name" section. 
+                            Then the user and choose which group the task belongs in, the name of the 
+                            person that the task applies to, and finally the priority of the task.
                         </p>
 
-                        <h4>Result when the user opens up the application</h4>
-                        <img class ="billboard-project" src = "images/TDLII/ToDoListIIThumbnail.jpg">
+                        <h5>Get Task Id</h5>
+                        <p>
+                            In this section, the user can get ID of a task that they assigned.
+                        </p>
 
-                        <h4>Result when the user adds tasks onto the To Do List</h4>
-                        <img class ="billboard-project" src = "images/TDLII/ToDoListIIAddingTasks.jpg">
+                        <h5>Enter the Task ID to update then press 'Get Task'</h5>
+                        <p>
+                            In this section, the user can assign a task an ID.
+                        </p>
 
-                        <h4>Result when the user toggles the task as complete</h4>
-                        <img class ="billboard-project" src = "images/TDLII/ToDoListIICompletingTasks.jpg">
+                        <h5>Delete task by task Id</h5>
+                        <p>
+                            In this section, the user can delete any task 
+                            they want by entering the specific task ID and then 
+                            clicking on delete task.
+                        </p>
 
-                        <h4>Result when the user deletes tasks from the To Do List</h4>
-                        <img class ="billboard-project" src = "images/TDLII/ToDoListIIDeleteTasks.jpg">
+                        <h5>Add new Person</h5>
+                        <p>
+                            In this section, the user can add the user's name to
+                            differentiate multiple users and the tasks that are associated with them.
+                        </p>
+
+                        <h4>Documentation</h4>
+                        <p>This project is done in Visual Studio Code using
+                             HTML,CSS,JavaScript,Express, and SQLite.</p>
+                        
+                        <p>HTML and CSS is used to design the overall application while JavaScript,
+                             Express, and SQLite is used for the backend side of the application.</p>
+                        
+                        <p>
+                            This application can run locally just type in npm run start-watch in the terminal.
+                        </p>
+
+                        <p>
+                            Express is used for the server in storing the data the user enters
+                        </p>
+
+                        <p>
+                            Once npm run start-watch is entered in the terminal the first time, 
+                            the application will start up and the script run that will create a
+                             SQLite database called 'db.toDoList'.
+                        </p>
+                        <p>
+                            This database should be able to be viewed on DB browser for SQLite.
+                        </p>
+
+                        <p>
+                            database.js file is created for the tables and sample records that are being created
+                        </p>
+
+                        <p>
+                            Once npm run start-watch ran succesfully, 
+                            then the application can be accessed locally at http://localhost:4000/toDo.html
+                        </p>                    
+
+                        <h5>
+                            When user opens application initially
+                        </h5>
+                        <img class ="billboard-project" src = "images/TDL/ToDoListThumbnail.jpg">
+
+                        <h5>
+                            Result when the user is in the Add New Task section
+                        </h5>
+                        <img class ="billboard-project" src = "images/TDL/addNewTaskTDL.jpg">
+
+                        <h5>
+                            Result when the user is in the Enter the Task ID to update then press 'Get Task' section
+                        </h5>
+                        <img class ="billboard-project" src = "images/TDL/EnterTheTaskIdToUpdate.jpg">
+
+                        <h5>
+                            Result when the user is in the Delete task by task Id section
+                        </h5>
+                        <img class ="tdl-project" src = "images/TDL/deleteTask.jpg">
+
+                        
+                        <h5>
+                            Result when the user is in the Add new Person section
+                        </h5>
+                        <img class ="tdl-project" src = "images/TDL/AddNewPerson.jpg">
 
                         <h4>Source Code</h4>
                         <p>The source code is found on my:
-                            <a href ="https://github.com/ytang913/To-Do-List-II">Github</a>
+                            <a href ="https://github.com/ytang913/To-Do-List">Github</a>
                         </p>
-
-                    </div>
+                     
+        
         <script type = "text/javascript" src="script.js"></script>
     </body>
 </html>
