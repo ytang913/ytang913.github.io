@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Login Registration</title>
+        <title>Login Registration Application</title>
         <meta name = "viewport" content = "width=device-width, initial-scale=1,
         maximum-scale=1, minimum-scale=1"/>
 
@@ -17,7 +17,7 @@
         <section class = "s1">
             <div class = "main-container">
                 <div class = "greeting-wrapper">
-                    <h1> Login Registration</h1>    
+                    <h1> Login Registration Application</h1>    
                 </div>
                 
                 <div class = "intro-wrapper">
@@ -78,25 +78,45 @@
                     <div>
                         <h4>About</h4>
 
-                        <p>This project is a login registration built using React.JS, Express, and MongoDB</p>
+                        <p>This project is a Login Registration Application
+                             built using React.JS, Express, MongoDB,Bootstrap CSS, and axios</p>
 
-                        
+                        <p>Users are tasked to enter in four fields: 
+                            Full Name, Username, Email, and Password
+                        </p>                       
                     
                         <h4>Documentation</h4>
-                        
-                        <p>The front end was built using React.JS</p>
-                        <p>The back end was built using Express and MongoDB</p>
 
-                        <p>routes.js is respondsible for routing the requests that comes to the server</p>
+                        <h5>Backend</h5>
 
-                        <p>Mongoose is used (library in MongoDB)</p>
+                        <p>Express and MongoDB was used for this portion.</p>
 
-                        <p>LoginModels.js is for the schema, mongoose is in this 
-                            the date function is only for backend it will mark the date the user 
-                            is signing up
+                        <p>server.js is created for the backend server and also connected to Mongoose</p>
+
+                        <p>routes.js is created to route the requests that come to the server</p>
+
+                        <p></p>
+
+                        <p>LoginModels.js is created for the schema and Mongoose is housed here
+                            and within it there are five fields Full Name, Username, Email, password, 
+                            and Date.</p>
+                        <p>
+                            The Four fields: Full Name, Username, Email, and password is what the user will 
+                            enter in, while the Date field will allow me to know which month,day, and year they 
+                            entered in their information.  
                         </p>
 
-                        <p>when a user enters in their information a POST request is sent
+                        <p>MongoDB Cloud Atlas is used to house the data received from Post requests
+                            and it allows me to see the requests.
+                        </p>
+
+                        <h5>Frontend</h5>
+
+                        <p>
+                            React.JS was used for this portion.
+                        </p>
+
+                        <p>When a user enters in their information a POST request is sent
                             and router.post will handle it
                         </p>
 
@@ -106,14 +126,26 @@
 
                         <p>super class and constructor to hold on the states for the login registration</p>
 
+                        <p>we are using the setState function to change the events </p>
 
-                        <h4>Result when the user initially plays the game.</h4>
+                        <p>When the user puts their information in the empty form, the onSubmit event will be triggered 
+                            then the methods will be triggered. When the user clicks on submit, the 
+                            onSubmit event will be triggered and it will gather the values that the 
+                            user entered which are stored in the states. They will save it in registered.
+
+                            We are then gonna send registered into the backend. which is done using axios
+
+                        </p>
+
+                        <p>Whatever the user is typing will be saved in states</p>
+
+                        <h4>Result when the user initially runs both frontend and backend.</h4>
+                        <img class ="billboard-project" src = "images/LoginReg/thumbnail.jpg">
+
+                        <h4>Result when the user enters their information.</h4>
                         <img class ="billboard-project" src = "images/#">
 
-                        <h4>Result when the user wins the game.</h4>
-                        <img class ="billboard-project" src = "images/#">
-
-                        <h4>Result when the user loses the game.</h4>
+                        <h4>Result of when MongoDB Cloud Atlas recieves the Post request</h4>
                         <img class ="billboard-project" src = "images/#">
 
                     </div>
