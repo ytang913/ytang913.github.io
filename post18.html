@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Pong Pygame</title>
+        <title>Web Scraper</title>
         <meta name = "viewport" content = "width=device-width, initial-scale=1,
         maximum-scale=1, minimum-scale=1"/>
 
@@ -17,7 +17,7 @@
         <section class = "s1">
             <div class = "main-container">
                 <div class = "greeting-wrapper">
-                    <h1>Pong Pygame</h1>    
+                    <h1>Web Scraper </h1>    
                 </div>
                 
                 <div class = "intro-wrapper">
@@ -77,49 +77,53 @@
                 <div class="about-wrapper"></div>
                     <div>
                         <h4>About</h4>
-                        <p>This project is essentially a pong game.</p>
-                        <p>The player plays pong with a computer and the objective is to make the cpu miss the ball to win the game </p>
+                        <p>
+                            For this project I created a web scraper using Python and BeautifulSoup</p>                    
+                        <p>
+                            This web scraper will parse my Portfolio Website: ytang913.github.io
+                         </p>
 
-                        <p>If the player misses the ball they will lose the game </p>
-                            
-                        <p>The player will have an opportunity to restart the game after they win or lose.</p>
-                            
-                        <p>Everytime the player or cpu wins a game their score increases</p>
-
-                        <p>As the game progresses the ball speed increases by 1</p>
-                    
-                        <h4>Documentation</h4>
+                         <p>When the website is parsed a csv file projects.csv will be created</p>
                         
-                        <p>This project was built using Python and Pygame</p>
+                        <h4>Documentation</h4>
 
                         <p>
-                            Pygame is used to create the screen, starting up the game, ending the game,
-                            and displaying the title of the game
+                            I created a request variable with my website's URL 
+                            to request the page allowing me to 
+                            scrape the webpage
                         </p>
 
                         <p>
-                            The functionality of the ball and paddles are all done with classes and within 
-                            the classes are functions and if/else statements
+                            Then I created a variable to read the request variable and then closed it
                         </p>
 
                         <p>
-                            The movement of the paddles, the ball's speed increasing as the game progresses,
-                            and the restarting of the game when the player or CPU scores are all done with a
-                            while loop and within it are if/else statements and for loops
+                           A html parser was created to parse through the div class "post-wrapper"
                         </p>
 
-                        <h4>Result when the user initially plays the game.</h4>
-                        <img class ="billboard-project" src = "images/Pong/pongPygameInitial.jpg">
+                        
+                        <p>I created csv file called projects.csv to store the parsed data</p>
 
-                        <h4>Result when the user wins the game.</h4>
-                        <img class ="billboard-project" src = "images/Pong/pongPygameWin.jpg">
+                        <p>Headers are created to differentiate the data: Title and Description</p>
 
-                        <h4>Result when the user loses the game.</h4>
-                        <img class ="billboard-project" src = "images/Pong/pongPygameLose.jpg">
+                        <p>A for loop is used to iterate through the html parser.
+                           Within the for loop there is a title and a description variable.
+                        </p>
+
+                        <p>
+                            The title and description variable are created scrape the "post-title" class and "post-intro" class
+                            respectively using the iterator in the for loop, item.
+                        </p>
+
+                        <p>
+                            Then the data from the title and description is written on the csv
+                            file I created.
+                        </p>
+                        
 
                         <h4>Source Code</h4>
                         <p>The source code is found on my:
-                            <a href ="https://github.com/ytang913/Pong-Pygame">Github</a>
+                            <a href ="https://github.com/ytang913/Web-Scraper">Github</a>
                         </p>
 
                     </div>

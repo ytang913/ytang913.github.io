@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Snake Game II</title>
+        <title>Tic Tac Toe II</title>
         <meta name = "viewport" content = "width=device-width, initial-scale=1,
         maximum-scale=1, minimum-scale=1"/>
 
@@ -17,7 +17,7 @@
         <section class = "s1">
             <div class = "main-container">
                 <div class = "greeting-wrapper">
-                    <h1>Snake Game II</h1>    
+                    <h1>Tic Tac Toe II</h1>    
                 </div>
                 
                 <div class = "intro-wrapper">
@@ -48,7 +48,6 @@
                             <div data-mode= "yellow" id ="yellow-mode" class ="theme-dot"></div>
                             <div data-mode= "orange" id = "orange-mode" class="theme-dot"></div>
                             <div data-mode="light" id = "light-mode" class = "theme-dot"></div>
-
                         </div> 
 
                         <p id = "settings-note">You can change the color of the home page by
@@ -77,58 +76,108 @@
                 <div class="about-wrapper"></div>
                     <div>
                         <h4>About</h4>
-                        <p>This project is a snake game that is built with HTML, CSS,
-                             and JavaScript in Visual Studio Code. </p>
-                        
-                        <p>To start the game the user tap on the arrow keys to move the snake</p>
 
-                        <p>The snake will automatically move in the direction it is 
-                            facing when the game starts</p>
+                        <p>This project is a Tic Tac Toe board that users can play on Eclispe IDE</p>
 
-                        <p>The user can move the snake left or right using the left 
-                            or right button in the keyboard</p>
+                        <p>This project allows 2 players to play</p>
 
-                        <p>The user can move the snake up or down using the up 
-                            or down button in the keyboard</p>
+                        <p>The game will randomly assign 'X' or 'O' to have the first turn</p>
 
-                        <p>When the snake eats the food, the food will add itself to the snake
-                             and the score will increase by 1 point</p>
+                        <p>The first player to get three in a row wins the game</p>
 
-                        <p>When the snake eats the poison the snake will decrease back to one 
-                            block and the score will revert back to zero, 
-                            forcing the user to start the game again.
-                        </p>
-
-                        <p>The poisons will disappear and reappear randomly on the screen</p>
-
-                        <p>The snake is able to stop its movement by being placed on the ends of the screen 
-                            where there is no poison or food present</p>
+                        <p>If no player gets three in a row, then the game will have to be restarted</p>
 
                         <h4>Documentation</h4>
 
-                        <p>HTML and CSS is used to create the screen of the web based application</p>
+                        <p>This project is done using Java</p>
 
-                        <p>JavaScript classes are used for the Snake, food, and poison</p>
+                        <p>There are two public classes created: TicTacToe and Main</p>
 
-                        <p>JavaScript functions are used to create the board, the snake's action of
-                            eating the food and posion, scoreboard, and movement of the snake.
+                        <p>In the TicTacToe public class a Java ActionListener interface was implemented</p>
+
+                        <p>
+                            Within this interface, a Random class, JFrame class, JPanel class for the title and button,
+                            JLabel class, JButton array, and a boolean. 
+                        </p>
+                        <p> Furthermore, a constructor TicTacToe() and five methods are found within the 
+                            TicTacToe public class. The five methods are actionPerformed, firstTurn, check, XWins, OWins
                         </p>
 
-                        <h4>Result when the user is starts the game</h4>
-                        <img class ="billboard-project" src = "images/snakeII/snakeIIThumbnail.jpg">
+                        <p>
+                            A constructor TicTacToe() is created and within that contains setting up the title panel,
+                            buttons, and the frame. This is done by using setters, for loops, and arrays. Then the firstTurn
+                            method was called.
 
-                        <h4>Result when the user is playing the game</h4>
-                        <img class ="billboard-project" src = "images/snakeII/snakeIIplaying.jpg">
+                        </p>
 
-                        <h4>Result when the snake eats the poison</h4>
-                        <img class ="billboard-project" src = "images/snakeII/snakeIIpoison.jpg">
+                        <p>actionPerformed is a method where the user can interact with the Tic Tac Toe board and
+                            within that method  contains for loops and if/else statements.
+                        </p>
 
+                        <p>firstTurn is a method that decides randomly whether or not 'O' or 'X'
+                            goes first. Within this method contains a try/catch statement and 
+                            if/else statements.
+                        </p>
+                        
+                        <p>
+                            check is a method that checks which user wins the game and is calling either XWins 
+                            or OWins. Within this method contains if/else statements, arrays, and methods.
+                        </p>
+
+                        <p>
+                            XWins method checks that the X player wins and it takes in three paremeters of integers. 
+                            Within this method contains arrays and for loops.
+                        </p>
+
+                        <p>
+                            OWins method checks that the O player wins and it takes in three parameters of integers.
+                            Within this method contains arrays and for loops.
+                        </p>
+
+                        <p>In order to start the game the user must click on the play button in Eclispe</p>                           
+
+                        <h5>
+                            When user starts game initially 
+                        </h5>
+                        <img class ="billboard-project" src = "images/TT2/initialStart.jpg">
+
+                        <h5>
+                            When user is playing the game
+                        </h5>
+                        <img class ="billboard-project" src = "images/TT2/playingTT2.jpg">
+
+                        <h5>
+                            When it is 'O' turn
+                        </h5>
+                        <img class ="billboard-project" src = "images/TT2/OTurn.jpg">
+
+                        <h5>
+                            When a user wins the game as 'X'
+                        </h5>
+                        <img class ="billboard-project" src = "images/TT2/XTurn.jpg">
+
+                        <h5>
+                            When user wins the game as 'O'
+                        </h5>
+                        <img class ="billboard-project" src = "images/TT2/OWins.jpg">
+
+                        <h5>
+                            When user wins the game as 'X'
+                        </h5>
+                        <img class ="billboard-project" src = "images/TT2/XWins.jpg">
+
+                        <h5>
+                            When the game ends in a draw
+                        </h5>
+                        <img class ="billboard-project" src = "images/TT2/draw.jpg">
+
+                       
                         <h4>Source Code</h4>
                         <p>The source code is found on my:
-                            <a href ="https://github.com/ytang913/Snake-Game-II">Github</a>
+                            <a href ="https://github.com/ytang913/Tic-Tac-Toe-II">Github</a>
                         </p>
-
-                    </div>
+                     
+        
         <script type = "text/javascript" src="script.js"></script>
     </body>
 </html>

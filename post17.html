@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Breakout Pygame</title>
+        <title>Snake Game II</title>
         <meta name = "viewport" content = "width=device-width, initial-scale=1,
         maximum-scale=1, minimum-scale=1"/>
 
@@ -17,7 +17,7 @@
         <section class = "s1">
             <div class = "main-container">
                 <div class = "greeting-wrapper">
-                    <h1>Breakout Pygame</h1>    
+                    <h1>Snake Game II</h1>    
                 </div>
                 
                 <div class = "intro-wrapper">
@@ -48,6 +48,7 @@
                             <div data-mode= "yellow" id ="yellow-mode" class ="theme-dot"></div>
                             <div data-mode= "orange" id = "orange-mode" class="theme-dot"></div>
                             <div data-mode="light" id = "light-mode" class = "theme-dot"></div>
+
                         </div> 
 
                         <p id = "settings-note">You can change the color of the home page by
@@ -76,50 +77,56 @@
                 <div class="about-wrapper"></div>
                     <div>
                         <h4>About</h4>
+                        <p>This project is a snake game that is built with HTML, CSS,
+                             and JavaScript in Visual Studio Code. </p>
                         
-                        <p>This project is a Breakout game </p>
+                        <p>To start the game the user tap on the arrow keys to move the snake</p>
 
-                        <p>The user can start up the game and then the ball will bounce from the paddle
-                            and hits the block
+                        <p>The snake will automatically move in the direction it is 
+                            facing when the game starts</p>
+
+                        <p>The user can move the snake left or right using the left 
+                            or right button in the keyboard</p>
+
+                        <p>The user can move the snake up or down using the up 
+                            or down button in the keyboard</p>
+
+                        <p>When the snake eats the food, the food will add itself to the snake
+                             and the score will increase by 1 point</p>
+
+                        <p>When the snake eats the poison the snake will decrease back to one 
+                            block and the score will revert back to zero, 
+                            forcing the user to start the game again.
                         </p>
 
-                        <p>The user can move the paddle left or right using the left or right keys on the 
-                            computer
-                        </p>
+                        <p>The poisons will disappear and reappear randomly on the screen</p>
 
-                        <p>If the ball misses the paddle the user will lose the game and will asked to
-                            restart the game to play again
-                        </p>
-                        
+                        <p>The snake is able to stop its movement by being placed on the ends of the screen 
+                            where there is no poison or food present</p>
+
                         <h4>Documentation</h4>
-                        <p>This project was made using Python and Pygame</p>
 
-                        <p> Pygame is used to create the screen, starting up the game, ending the game,
-                            and displaying the title of the game</p>
+                        <p>HTML and CSS is used to create the screen of the web based application</p>
 
-                        <p>Python Classes are used to create the ball and paddle and within the Classes
-                            are functions that are used for the ball and paddle collisions and reset.
+                        <p>JavaScript classes are used for the Snake, food, and poison</p>
+
+                        <p>JavaScript functions are used to create the board, the snake's action of
+                            eating the food and posion, scoreboard, and movement of the snake.
                         </p>
 
-                        <p>A while loop is used for running the game and within it are for loops and if/else 
-                            statements </p>
-                        
-                        <h4>Result when the user opens up the application</h4>
-                        <img class ="billboard-project" src = "images/BreakoutPygame/breakoutPygameThumbnail.jpg">
+                        <h4>Result when the user is starts the game</h4>
+                        <img class ="billboard-project" src = "images/snakeII/snakeIIThumbnail.jpg">
 
                         <h4>Result when the user is playing the game</h4>
-                        <img class ="billboard-project" src = "images/BreakoutPygame/playingBreakout.jpg">
-                        
-                        <h4>Result when the user loses the game</h4>
-                        <img class ="billboard-project" src = "images/BreakoutPygame/loseBreakout.jpg">
-                        
+                        <img class ="billboard-project" src = "images/snakeII/snakeIIplaying.jpg">
+
+                        <h4>Result when the snake eats the poison</h4>
+                        <img class ="billboard-project" src = "images/snakeII/snakeIIpoison.jpg">
+
                         <h4>Source Code</h4>
                         <p>The source code is found on my:
-                            <a href ="https://github.com/ytang913/Breakout-Pygame">Github</a>
+                            <a href ="https://github.com/ytang913/Snake-Game-II">Github</a>
                         </p>
-                     
-
-                 
 
                     </div>
         <script type = "text/javascript" src="script.js"></script>

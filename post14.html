@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Web Scraper</title>
+        <title>Breakout Pygame</title>
         <meta name = "viewport" content = "width=device-width, initial-scale=1,
         maximum-scale=1, minimum-scale=1"/>
 
@@ -17,7 +17,7 @@
         <section class = "s1">
             <div class = "main-container">
                 <div class = "greeting-wrapper">
-                    <h1>Web Scraper </h1>    
+                    <h1>Breakout Pygame</h1>    
                 </div>
                 
                 <div class = "intro-wrapper">
@@ -48,7 +48,6 @@
                             <div data-mode= "yellow" id ="yellow-mode" class ="theme-dot"></div>
                             <div data-mode= "orange" id = "orange-mode" class="theme-dot"></div>
                             <div data-mode="light" id = "light-mode" class = "theme-dot"></div>
-
                         </div> 
 
                         <p id = "settings-note">You can change the color of the home page by
@@ -77,54 +76,50 @@
                 <div class="about-wrapper"></div>
                     <div>
                         <h4>About</h4>
-                        <p>
-                            For this project I created a web scraper using Python and BeautifulSoup</p>                    
-                        <p>
-                            This web scraper will parse my Portfolio Website: ytang913.github.io
-                         </p>
+                        
+                        <p>This project is a Breakout game </p>
 
-                         <p>When the website is parsed a csv file projects.csv will be created</p>
+                        <p>The user can start up the game and then the ball will bounce from the paddle
+                            and hits the block
+                        </p>
+
+                        <p>The user can move the paddle left or right using the left or right keys on the 
+                            computer
+                        </p>
+
+                        <p>If the ball misses the paddle the user will lose the game and will asked to
+                            restart the game to play again
+                        </p>
                         
                         <h4>Documentation</h4>
+                        <p>This project was made using Python and Pygame</p>
 
-                        <p>
-                            I created a request variable with my website's URL 
-                            to request the page allowing me to 
-                            scrape the webpage
+                        <p> Pygame is used to create the screen, starting up the game, ending the game,
+                            and displaying the title of the game</p>
+
+                        <p>Python Classes are used to create the ball and paddle and within the Classes
+                            are functions that are used for the ball and paddle collisions and reset.
                         </p>
 
-                        <p>
-                            Then I created a variable to read the request variable and then closed it
-                        </p>
-
-                        <p>
-                           A html parser was created to parse through the div class "post-wrapper"
-                        </p>
-
+                        <p>A while loop is used for running the game and within it are for loops and if/else 
+                            statements </p>
                         
-                        <p>I created csv file called projects.csv to store the parsed data</p>
+                        <h4>Result when the user opens up the application</h4>
+                        <img class ="billboard-project" src = "images/BreakoutPygame/breakoutPygameThumbnail.jpg">
 
-                        <p>Headers are created to differentiate the data: Title and Description</p>
-
-                        <p>A for loop is used to iterate through the html parser.
-                           Within the for loop there is a title and a description variable.
-                        </p>
-
-                        <p>
-                            The title and description variable are created scrape the "post-title" class and "post-intro" class
-                            respectively using the iterator in the for loop, item.
-                        </p>
-
-                        <p>
-                            Then the data from the title and description is written on the csv
-                            file I created.
-                        </p>
+                        <h4>Result when the user is playing the game</h4>
+                        <img class ="billboard-project" src = "images/BreakoutPygame/playingBreakout.jpg">
                         
-
+                        <h4>Result when the user loses the game</h4>
+                        <img class ="billboard-project" src = "images/BreakoutPygame/loseBreakout.jpg">
+                        
                         <h4>Source Code</h4>
                         <p>The source code is found on my:
-                            <a href ="https://github.com/ytang913/Web-Scraper">Github</a>
+                            <a href ="https://github.com/ytang913/Breakout-Pygame">Github</a>
                         </p>
+                     
+
+                 
 
                     </div>
         <script type = "text/javascript" src="script.js"></script>
