@@ -1,23 +1,21 @@
 # Portfolio Website
 
-# About
-This website is created to highlight my personal projects, skills, courses, certifications, contact information, and personal goals
+# About 
+This website is created to highlight my personal projects, skills, courses, certifications, contact information, and personal goals 
 
-The user is able to change theme color of the website by clicking on the buttons prompted
+The user can change theme color of the website by clicking on the buttons prompted 
 
-# Documentation
+# Documentation 
 
-JavaScript functions, for loops, and if/else statemnts is used for the changing of theme color
+JavaScript functions, for loops, and if/else statements is used for the changing of theme color 
 
-CSS is used for the different theme colors and the overall aesthetic of the website
+CSS is used for the different theme colors and the overall aesthetic of the website HTML is used for the navigation bar, the contact form, and the different projects highlighted 
 
-HTML is used for the navigation bar, the contact form, and the different projects highlighted
+The website also allows users to navigate to different pages on the website and enter their contact information into the form, which was created using HTML 
 
-The website also allows users to navigate to different pages on the website and enter their contact information into the form, which was created using HTML
+Formspree.io is used to get the data of the form when users enter in their information. 
 
-Formspree.io is used to get the data of the form when users enter in their information.
-
-The different theme colors are blue,magenta,green, purple, sky blue, neon green, yellow, orange, and white
+The different theme colors are blue, magenta, green, purple, sky blue, neon green, yellow, orange, and white
 
 # Blue Theme
 ![](images/Portfolio%20Website/blueTheme.jpg)
