@@ -343,6 +343,8 @@ h6{font-size: 16px;}
 .post-preview{
     background-color:#fff;
     padding:15px;
+    height: 175px; /* Set your desired fixed height */
+    overflow: hidden;
 
 }
 
